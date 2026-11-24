@@ -1,0 +1,22 @@
+{
+  "ship_code": "DEMO-001",
+  "holds": [
+    {"hold_no": 1, "certified_total_kg": 1001000},
+    {"hold_no": 2, "certified_total_kg": 5000}
+  ],
+  "batches": [
+    {
+      "batch_no": "WB-A",
+      "rows": [
+        {"line_no": 1, "hold_no": 1, "weight_text": "1.000"},
+        {"line_no": 2, "hold_no": 2, "weight_text": "5"}
+      ]
+    },
+    {
+      "batch_no": "WB-B",
+      "rows": [
+        {"line_no": 3, "hold_no": 1, "weight_text": "1,000"}
+      ]
+    }
+  ]
+}
